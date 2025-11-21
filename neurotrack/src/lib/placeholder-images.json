@@ -1,0 +1,65 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "1",
+      "description": "It's red and keeps the doctor away.",
+      "imageUrl": "/images/apple.jpeg",
+      "imageHint": "apple"
+    },
+    {
+      "id": "2",
+      "description": "A long, yellow fruit that monkeys love.",
+      "imageUrl": "https://picsum.photos/seed/banana/600/400",
+      "imageHint": "banana"
+    },
+    {
+      "id": "3",
+      "description": "A small, red fruit that often grows on a vine.",
+      "imageUrl": "https://picsum.photos/seed/grape/600/400",
+      "imageHint": "grape"
+    },
+    {
+      "id": "4",
+      "description": "A round, orange citrus fruit.",
+      "imageUrl": "https://picsum.photos/seed/orange/600/400",
+      "imageHint": "orange"
+    },
+    {
+      "id": "5",
+      "description": "A sweet, red fruit with seeds on the outside.",
+      "imageUrl": "https://picsum.photos/seed/strawberry/600/400",
+      "imageHint": "strawberry"
+    },
+    {
+      "id": "6",
+      "description": "A large, green-skinned melon that's red inside.",
+      "imageUrl": "https://picsum.photos/seed/watermelon/600/400",
+      "imageHint": "watermelon"
+    },
+    {
+      "id": "7",
+      "description": "A small, fuzzy, brown-skinned fruit that's green inside.",
+      "imageUrl": "https://picsum.photos/seed/kiwi/600/400",
+      "imageHint": "kiwi"
+    },
+    {
+      "id": "8",
+      "description": "A tropical fruit with a tough, spiky skin and sweet, yellow flesh.",
+      "imageUrl": "https://picsum.photos/seed/pineapple/600/400",
+      "imageHint": "pineapple"
+    },
+    {
+      "id": "9",
+      "description": "A soft, sweet, bell-shaped fruit.",
+      "imageUrl": "https://picsum.photos/seed/pear/600/400",
+      "imageHint": "pear"
+    },
+    {
+      "id": "10",
+      "description": "Small, dark red fruits that grow on trees, often put on top of desserts.",
+      "imageUrl": "https://picsum.photos/seed/cherry/600/400",
+      "imageHint": "cherry"
+    }
+  ]
+}
