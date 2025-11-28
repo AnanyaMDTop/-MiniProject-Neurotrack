@@ -27,7 +27,13 @@ export function LoginPage({ onLogin }: { onLogin: (user: any) => void }) {
       localStorage.setItem("token", data.token);
       localStorage.setItem("user", JSON.stringify(data.user));
       onLogin(data.user);
-      window.location.href = "/home";
+      if (data.user.role === "patient") {
+  window.location.href = "/patient";
+} else if (data.user.role === "caregiver") {
+  window.location.href = "/caregiver";
+} else if (data.user.role === "doctor") {
+  window.location.href = "/doctor";
+}
     } catch (err) {
       setError("Network error");
       console.error(err);

@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from "react";
 import { LoginPage } from "@/components/app/auth/LoginPage";
 import { Header } from "@/components/app/header";
-import { Reminders } from "@/components/app/reminders";
+import { CaregiverRemindersPage } from "@/components/app/reminders";
 import { LocationFeature } from "@/components/app/location-feature";
 import { GamesFeature } from "@/components/app/games-feature";
 import { Bot, Gamepad2, MapPin, Users, Menu, LogOut } from "lucide-react";
@@ -11,7 +11,7 @@ import Link from "next/link";
 
 // ✅ Define sidebar items
 const navItems = [
-  { value: "reminders", label: "Reminders", icon: Bot, component: <Reminders /> },
+  { value: "reminders", label: "Reminders", icon: Bot, component: <CaregiverRemindersPage /> },
   { value: "games", label: "Games", icon: Gamepad2, component: <GamesFeature /> },
   { value: "location", label: "Location", icon: MapPin, component: <LocationFeature /> },
   { value: "people", label: "People", icon: Users, link: "/people" },

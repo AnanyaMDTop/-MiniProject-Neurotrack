@@ -11,7 +11,7 @@ export default function PeoplePage() {
       <main className="flex-grow container mx-auto px-4 py-8 max-w-4xl">
         <div className="mb-6">
             <Button asChild variant="outline">
-                <Link href="/">
+                <Link href="/patient">
                     <ArrowLeft className="mr-2 h-4 w-4"/>
                     Back to Dashboard
                 </Link>

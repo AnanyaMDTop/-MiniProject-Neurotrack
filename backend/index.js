@@ -17,12 +17,16 @@ app.use("/auth", authRoutes);
 app.use("/people", peopleRoutes);
 
 
-// Connect to MongoDB
-mongoose.connect(
- "mongodb+srv://ananyamd:ananya%40mongodb20@cluster0.iumrn5v.mongodb.net/neuro"
-).then(() => console.log("MongoDB connected"))
-  .catch(err => console.error(err));
+// Connect to MongoDB (use MONGO_URI in environment when available)
+const MONGO_URI = process.env.MONGO_URI ||
+  "mongodb+srv://ananyamd:ananya%40mongodb20@cluster0.iumrn5v.mongodb.net/neuro";
+
+mongoose
+  .connect(MONGO_URI)
+  .then(() => console.log("MongoDB connected"))
+  .catch((err) => console.error("MongoDB connection error:", err));
 
 
 
-app.listen(5000, () => console.log("Auth server running on port 5000"));
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => console.log(`Auth server running on port ${PORT}`));
